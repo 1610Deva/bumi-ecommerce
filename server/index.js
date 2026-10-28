@@ -11,11 +11,20 @@ const orderRoutes = require("./src/routes/orderRoutes");
 const webhookRoutes = require("./src/routes/webHookRoutes");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = Number(process.env.PORT) || 5000;
 
-app.use(cors({
-  origin: "http://localhost:5173"
-}));
+const allowedOrigins = (
+  process.env.CLIENT_URL || "http://localhost:5173"
+)
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter(Boolean);
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+  })
+);
 
 app.use(express.json());
 
@@ -54,6 +63,6 @@ app.get("/api/db-test", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`BUMI API running at http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`BUMI API running on port ${PORT}`);
 });
