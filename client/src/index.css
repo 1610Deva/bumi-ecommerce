@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #193d32;
+  --color-sage: #a8b9a2;
+  --color-ivory: #f6f4ec;
+  --color-charcoal: #252925;
+  --color-earth: #92735d;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  color: #252925;
+  background-color: #f6f4ec;
+  font-synthesis: none;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+.display-font,
+.editorial-serif {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.editorial-serif { font-style: italic; }
+.section-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* The images are illustrative lifestyle photography, not representations of items sold. */
+.home-hero {
+  background-color: #193d32;
+  isolation: isolate;
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}

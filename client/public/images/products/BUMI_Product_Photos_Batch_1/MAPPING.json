@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Stainless Tumbler",
+    "slug": "stainless-tumbler",
+    "category": "Drinkware",
+    "imageUrl": "/images/products/stainless-tumbler.webp",
+    "size_kb": 39.3,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Glass Water Bottle",
+    "slug": "glass-water-bottle",
+    "category": "Drinkware",
+    "imageUrl": "/images/products/glass-water-bottle.webp",
+    "size_kb": 45.6,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Reusable Coffee Cup",
+    "slug": "reusable-coffee-cup",
+    "category": "Drinkware",
+    "imageUrl": "/images/products/reusable-coffee-cup.webp",
+    "size_kb": 48.9,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Stainless Straw Set",
+    "slug": "stainless-straw-set",
+    "category": "Drinkware",
+    "imageUrl": "/images/products/stainless-straw-set.webp",
+    "size_kb": 102.8,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Reusable Lunch Box",
+    "slug": "reusable-lunch-box",
+    "category": "Kitchen & Dining",
+    "imageUrl": "/images/products/reusable-lunch-box.webp",
+    "size_kb": 52.9,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Bamboo Cutlery Set",
+    "slug": "bamboo-cutlery-set",
+    "category": "Kitchen & Dining",
+    "imageUrl": "/images/products/bamboo-cutlery-set.webp",
+    "size_kb": 86.9,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Beeswax Food Wrap",
+    "slug": "beeswax-food-wrap",
+    "category": "Kitchen & Dining",
+    "imageUrl": "/images/products/beeswax-food-wrap.webp",
+    "size_kb": 70.8,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Reusable Food Storage Bag",
+    "slug": "reusable-food-storage-bag",
+    "category": "Kitchen & Dining",
+    "imageUrl": "/images/products/reusable-food-storage-bag.webp",
+    "size_kb": 47.4,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Bamboo Toothbrush",
+    "slug": "bamboo-toothbrush",
+    "category": "Personal Care",
+    "imageUrl": "/images/products/bamboo-toothbrush.webp",
+    "size_kb": 51.1,
+    "source": "AI-generated illustrative mockup"
+  },
+  {
+    "name": "Shampoo Bar",
+    "slug": "shampoo-bar",
+    "category": "Personal Care",
+    "imageUrl": "/images/products/shampoo-bar.webp",
+    "size_kb": 76.6,
+    "source": "AI-generated illustrative mockup"
+  }
+]
